@@ -51,10 +51,10 @@ const CTA = () => {
                 {/* CTA Button */}
                 <div className="flex flex-col items-center gap-6">
                     <a
-                        href="tel:301-974-7182"
+                        href="tel:682-900-8855"
                         className="bg-[#00b03b] hover:bg-[#009b34] text-white text-xl md:text-2xl font-bold px-10 py-5 rounded-md shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 inline-flex items-center gap-2"
                     >
-                        <Phone className="w-6 h-6" /> 301-974-7182
+                        <Phone className="w-6 h-6" /> (682) 900-8855
                     </a>
 
                     {/* Review Stars */}

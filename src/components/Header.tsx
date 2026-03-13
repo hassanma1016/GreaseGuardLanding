@@ -36,9 +36,9 @@ const Header = () => {
                     <div className="hidden md:flex items-center gap-4">
                         <div className="flex flex-col items-end mr-2">
                             <span className="text-xs text-green-400 font-bold tracking-wider uppercase">24/7 Emergency Service</span>
-                            <a href="tel:301-974-7182" className="flex items-center gap-2 font-black text-2xl hover:text-green-400 transition-colors">
+                            <a href="tel:682-900-8855" className="flex items-center gap-2 font-black text-2xl hover:text-green-400 transition-colors">
                                 <Phone className="h-6 w-6 text-green-500 fill-green-500" />
-                                301-974-7182
+                                (682) 900-8855
                             </a>
                         </div>
 
@@ -46,9 +46,9 @@ const Header = () => {
 
                     {/* Mobile Menu Button & Sticky Phone */}
                     <div className="md:hidden flex items-center gap-3">
-                        <a href="tel:301-974-7182" className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-full font-bold shadow-lg animate-pulse text-sm">
+                        <a href="tel:682-900-8855" className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-full font-bold shadow-lg animate-pulse text-sm">
                             <Phone className="h-4 w-4 fill-current" />
-                            <span>301-974-7182</span>
+                            <span>(682) 900-8855</span>
                         </a>
                         <button
                             onClick={() => setIsOpen(!isOpen)}
@@ -93,11 +93,11 @@ const Header = () => {
                             Testimonials
                         </Link>
                         <a
-                            href="tel:301-974-7182"
+                            href="tel:682-900-8855"
                             className="block w-full text-center mt-4 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-bold shadow-lg flex items-center justify-center gap-2"
                         >
                             <Phone className="inline w-5 h-5" />
-                            301-974-7182
+                            (682) 900-8855
                         </a>
 
                     </div>

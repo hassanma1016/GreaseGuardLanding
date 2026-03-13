@@ -48,7 +48,7 @@ const Footer = () => {
                             </span>
                         </div>
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                            The DMV&apos;s trusted partner for commercial kitchen exhaust cleaning and fire safety compliance in Washington DC, Northern VA, and Maryland.
+                            The DFW area&apos;s trusted partner for commercial kitchen exhaust cleaning and fire safety compliance in Dallas, Fort Worth, and the surrounding metroplex.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-slate-400 hover:text-white transition-colors"><Facebook className="h-5 w-5" /></a>
@@ -62,8 +62,8 @@ const Footer = () => {
                     <div>
                         <h4 className="font-bold text-lg mb-4">Contact Us</h4>
                         <ul className="space-y-3 text-slate-400 text-sm">
-                            <li>Service Area:<br />Washington DC, Arlington, Alexandria, Silver Spring, Bethesda, Rockville, Fairfax, Loudoun</li>
-                            <li><a href="tel:301-974-7182" className="hover:text-green-400 text-lg font-bold text-white">301-974-7182</a></li>
+                            <li>Service Area:<br />Dallas, Fort Worth, Arlington, Plano, Irving, Garland, Frisco, McKinney</li>
+                            <li><a href="tel:682-900-8855" className="hover:text-green-400 text-lg font-bold text-white">(682) 900-8855</a></li>
                             <li><a href="mailto:info@greaseguard.com" className="hover:text-green-400">info@greaseguard.com</a></li>
                         </ul>
                     </div>

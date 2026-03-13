@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import ClientLogos from "@/components/ClientLogos";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -16,7 +15,6 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <ClientLogos />
         <WhyChooseUs />
         <Services />
         <ProcessSteps />

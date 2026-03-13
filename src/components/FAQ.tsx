@@ -18,7 +18,7 @@ const faqs = [
     },
     {
         question: "What areas do you service?",
-        answer: "We proudly serve the entire DMV area, including Washington D.C., Northern Virginia (Arlington, Alexandria, Fairfax, Loudoun), and Maryland (Montgomery, Prince George's, Howard, and Anne Arundel counties)."
+        answer: "We proudly serve the entire Dallas-Fort Worth (DFW) metroplex, including Dallas, Fort Worth, Arlington, Plano, Irving, Garland, Frisco, McKinney, and surrounding areas."
     },
     {
         question: "How long does a typical hood cleaning take?",
@@ -69,10 +69,10 @@ const FAQ = () => {
                 {/* Bottom CTA Button */}
                 <div className="flex justify-center">
                     <a
-                        href="tel:301-974-7182"
+                        href="tel:682-900-8855"
                         className="bg-[#00b03b] hover:bg-[#009b34] text-white text-xl font-bold px-10 py-4 rounded-md shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 inline-flex items-center gap-2"
                     >
-                        <Phone className="w-6 h-6" /> 301-974-7182
+                        <Phone className="w-6 h-6" /> (682) 900-8855
                     </a>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleTagManager } from '@next/third-parties/google';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "GreaseGuard DMV | #1 Commercial Hood Cleaning Service",
-  description: "Top-rated kitchen exhaust cleaning in DC, Maryland, and Virginia. NFPA 96 compliant, 100% satisfaction guaranteed. Call 301-974-7182.",
+  description: "Top-rated kitchen exhaust cleaning in the DFW metroplex. NFPA 96 compliant, 100% satisfaction guaranteed. Call (682) 900-8855.",
 };
 
 export default function RootLayout({
@@ -24,9 +25,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-MFLFMG9B" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-MFLFMG9B"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         {children}
       </body>
     </html>

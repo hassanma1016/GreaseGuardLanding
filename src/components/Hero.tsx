@@ -3,7 +3,7 @@ import { MapPin, Check, CheckCircle, Phone } from "lucide-react";
 
 // Custom SVG Shield Component to match the exact reference shape
 const ShieldBadge = ({ title, sub, icon, colorHex }: { title: string; sub: string; icon: React.ReactNode; colorHex: string }) => (
-    <div className="relative w-24 h-28 sm:w-28 sm:h-32 flex flex-col items-center justify-center text-center z-10 drop-shadow-xl transition-transform hover:scale-105">
+    <div className="relative w-[70px] h-[84px] sm:w-28 sm:h-32 flex flex-col items-center justify-center text-center z-10 drop-shadow-xl transition-transform hover:scale-105 shrink-0 grow-0">
         {/* The Badge Shape - SVG Background */}
         <div className="absolute inset-0 z-0">
             <svg viewBox="0 0 100 120" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -19,13 +19,13 @@ const ShieldBadge = ({ title, sub, icon, colorHex }: { title: string; sub: strin
         </div>
 
         {/* Badge Content */}
-        <div className="relative z-10 flex flex-col items-center gap-1.5 pt-4">
+        <div className="relative z-10 flex flex-col items-center gap-1 sm:gap-1.5 pt-3 sm:pt-4">
             <div style={{ color: colorHex }}>{icon}</div>
             <div className="flex flex-col">
-                <span className="font-extrabold text-[#111] text-xs sm:text-sm uppercase leading-none tracking-tight" style={{ color: colorHex }}>
+                <span className="font-extrabold text-[#111] text-[10px] sm:text-sm uppercase leading-none tracking-tight" style={{ color: colorHex }}>
                     {title}
                 </span>
-                <span className="font-bold text-slate-500 text-[9px] sm:text-[10px] uppercase tracking-tighter leading-tight mt-0.5">
+                <span className="font-bold text-slate-500 text-[6.5px] sm:text-[10px] uppercase tracking-tighter leading-tight mt-0.5">
                     {sub}
                 </span>
             </div>
@@ -35,7 +35,7 @@ const ShieldBadge = ({ title, sub, icon, colorHex }: { title: string; sub: strin
 
 const Hero = () => {
     return (
-        <section className="relative min-h-[85vh] md:min-h-[90vh] flex items-start md:items-center pt-28 md:pt-24 pb-20 md:pb-32 overflow-hidden bg-slate-900">
+        <section className="relative min-h-[85vh] md:min-h-[90vh] flex items-start md:items-center pt-8 sm:pt-16 md:pt-24 pb-20 md:pb-32 overflow-hidden bg-slate-900">
             {/* Background Image with Dark Overlay */}
             <div className="absolute inset-0 z-0">
                 <Image
@@ -107,33 +107,33 @@ const Hero = () => {
                     <div className="flex flex-col items-start sm:flex-row sm:items-center gap-6 mb-12 animate-fade-in-up delay-300 w-full sm:w-auto">
                         {/* Button - Top on Mobile, Left on Desktop */}
                         <a
-                            href="tel:301-974-7182"
+                            href="tel:682-900-8855"
                             className="bg-[#00b03b] hover:bg-[#009b34] text-white text-lg sm:text-xl font-bold px-8 py-4 rounded-lg shadow-lg hover:shadow-green-500/40 transition-all transform hover:-translate-y-1 block text-center w-full sm:w-auto inline-flex items-center justify-center gap-2"
                         >
-                            <Phone className="w-5 h-5" /> 301-974-7182
+                            <Phone className="w-5 h-5" /> (682) 900-8855
                         </a>
 
                         {/* Location - Bottom on Mobile, Right on Desktop */}
                         <div className="flex items-center gap-2 text-white font-medium mb-2 sm:mb-0">
                             <MapPin className="w-6 h-6" />
-                            <span>DC, MD and VA</span>
+                            <span>Dallas-Fort Worth, TX</span>
                         </div>
                     </div>
 
                     {/* Trust Badges Row - Custom Scalable Grid - Left Aligned on mobile */}
-                    <div className="flex flex-wrap gap-4 sm:gap-6 mb-10 animate-fade-in-up delay-400 justify-start">
+                    <div className="flex flex-row flex-nowrap w-full sm:w-auto justify-between sm:justify-start gap-1 sm:gap-6 mb-10 animate-fade-in-up delay-400">
                         <ShieldBadge
                             title="USAKES"
                             sub="CERTIFIED"
                             colorHex="#1e3a8a" // Dark Blue
-                            icon={<Check className="w-8 h-8" strokeWidth={5} />}
+                            icon={<Check className="w-5 h-5 sm:w-8 sm:h-8" strokeWidth={5} />}
                         />
                         <ShieldBadge
                             title="NFPA 96"
                             sub="COMPLIANT"
                             colorHex="#b91c1c" // Red
                             icon={
-                                <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24">
+                                <svg className="w-5 h-5 sm:w-8 sm:h-8 fill-current" viewBox="0 0 24 24">
                                     <path d="M12 2C8 5 6 8 6 8s-3 3-3 7 3.5 7 9 7 9-7 9-7-2.5-12-9-12z" />
                                 </svg>
                             }
@@ -144,7 +144,7 @@ const Hero = () => {
                             colorHex="#d97706" // Gold/Amber
                             icon={
                                 // Warning Triangle
-                                <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                                <svg className="w-5 h-5 sm:w-8 sm:h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
                                     <line x1="12" y1="9" x2="12" y2="13"></line>
                                     <line x1="12" y1="17" x2="12.01" y2="17"></line>
@@ -155,7 +155,7 @@ const Hero = () => {
                             title="ISO"
                             sub="CERTIFIED"
                             colorHex="#2563eb" // Bright Blue
-                            icon={<CheckCircle className="w-8 h-8" strokeWidth={3} />}
+                            icon={<CheckCircle className="w-5 h-5 sm:w-8 sm:h-8" strokeWidth={3} />}
                         />
                     </div>
 

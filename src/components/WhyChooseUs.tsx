@@ -52,10 +52,10 @@ const WhyChooseUs = () => {
                         {/* CTA Section */}
                         <div className="flex flex-col items-start gap-4">
                             <a
-                                href="tel:301-974-7182"
+                                href="tel:682-900-8855"
                                 className="w-full md:w-auto bg-[#00b03b] hover:bg-[#009b34] text-white text-lg md:text-xl font-bold px-8 py-4 rounded-md shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center inline-flex items-center justify-center gap-2"
                             >
-                                <Phone className="w-6 h-6" /> 301-974-7182
+                                <Phone className="w-6 h-6" /> (682) 900-8855
                             </a>
 
                             <div className="flex items-center gap-2 text-slate-700 text-sm font-medium ml-1">
