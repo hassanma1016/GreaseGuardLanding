@@ -25,13 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-MFLFMG9B" />
+      <GoogleTagManager gtmId="GTM-NSRK5KPZ" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-MFLFMG9B"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-NSRK5KPZ"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
