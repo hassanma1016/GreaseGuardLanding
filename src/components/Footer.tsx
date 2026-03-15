@@ -64,7 +64,7 @@ const Footer = () => {
                         <ul className="space-y-3 text-slate-400 text-sm">
                             <li>Service Area:<br />Dallas, Fort Worth, Arlington, Plano, Irving, Garland, Frisco, McKinney</li>
                             <li><a href="tel:682-900-8855" className="hover:text-green-400 text-lg font-bold text-white">(682) 900-8855</a></li>
-                            <li><a href="mailto:info@greaseguard.com" className="hover:text-green-400">info@greaseguard.com</a></li>
+                            <li><a href="mailto:info@greaseguardhoodcleaning.com" className="hover:text-green-400">info@greaseguardhoodcleaning.com</a></li>
                         </ul>
                     </div>
 
