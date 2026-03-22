@@ -31,27 +31,34 @@ const Services = () => {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="group bg-white rounded-2xl overflow-hidden shadow-sm md:shadow-lg hover:shadow-md md:hover:shadow-2xl transition-all duration-300 border border-slate-100 flex md:block items-center md:items-stretch gap-4 md:gap-0 p-3 md:p-0"
+                            className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col h-full"
                         >
-                            {/* Image Container - Inset Thumbnail on Mobile / Full width on Desktop */}
-                            <div className="relative w-20 h-20 sm:w-24 sm:h-24 md:w-full md:h-64 flex-shrink-0 overflow-hidden rounded-xl md:rounded-none bg-slate-100">
+                            {/* Image Container - Full width and properly proportioned on both Mobile and Desktop */}
+                            <div className="relative w-full h-56 sm:h-64 md:h-72 flex-shrink-0 overflow-hidden bg-slate-100">
                                 <Image
                                     src={service.image}
                                     alt={service.title}
                                     fill
-                                    className="object-cover group-hover:scale-105 md:group-hover:scale-110 transition-transform duration-500"
+                                    className="object-cover group-hover:scale-105 transition-transform duration-700"
                                 />
-                                <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent mix-blend-multiply"></div>
                             </div>
 
                             {/* Content Container */}
-                            <div className="flex-1 min-w-0 md:p-8">
-                                <h3 className="text-[17px] sm:text-lg md:text-2xl font-bold text-slate-900 mb-1 md:mb-4 group-hover:text-green-600 transition-colors leading-tight">
+                            <div className="flex-1 flex flex-col p-6 sm:p-8 text-left">
+                                <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 mb-3 group-hover:text-green-600 transition-colors leading-tight">
                                     {service.title}
                                 </h3>
-                                <p className="text-slate-500 text-xs sm:text-sm md:text-base leading-snug md:leading-relaxed line-clamp-2 md:line-clamp-none">
+                                <p className="text-slate-500 text-sm sm:text-base md:text-lg leading-relaxed mb-6">
                                     {service.description}
                                 </p>
+                                
+                                <div className="mt-auto pt-4 border-t border-slate-100 flex items-center text-green-600 font-bold text-sm sm:text-base opacity-90 group-hover:opacity-100 transition-opacity">
+                                    <span>Learn more</span>
+                                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     ))}
