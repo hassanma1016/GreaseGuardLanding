@@ -12,7 +12,7 @@ const services = [
     {
         title: "Restaurant Hood Cleaning",
         description: "Comprehensive hood cleaning services for restaurants, ensuring fire safety, code compliance, and an immaculate kitchen environment.",
-        image: "/images/deep-cleaning.webp",
+        image: "/images/restaurant_hood.png",
     },
 ];
 
