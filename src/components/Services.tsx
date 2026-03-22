@@ -5,49 +5,14 @@ import { Phone } from "lucide-react";
 
 const services = [
     {
-        title: "Commercial Hood Cleaning",
+        title: "Kitchen Exhaust Cleaning",
         description: "Deep pressure washing of hoods, ducts, and fans to bare metal. We remove 100% of grease to meet NFPA 96 standards.",
         image: "/images/hood-cleaning.webp",
     },
     {
-        title: "Fan Belt Replacement",
-        description: "We inspect your exhaust fan belts every visit and replace them as needed to ensure optimal airflow and suction.",
-        image: "/images/fan-replacement.webp",
-    },
-    {
-        title: "Filter Cleaning & Exchange",
-        description: "Don't scrub dirty filters. We provide sparkling clean stainless steel baffle filters on every service visit.",
-        image: "/images/filter-cleaning.webp",
-    },
-    {
-        title: "Grease Trap Cleaning",
-        description: "Comprehensive grease trap pumping and deep cleaning to prevent backups, foul odors, and costly city fines.",
-        image: "/images/grease-trap.webp",
-    },
-    {
-        title: "Pollution Control Systems",
-        description: "Maintenance and cleaning of electrostatic precipitators and Ecology Units to keep air emissions compliant and smoke-free.",
-        image: "/images/pollution-control.webp",
-    },
-    {
-        title: "Residential Hood Cleaning",
-        description: "Pro-grade cleaning for high-end residential range hoods. We protect your luxury kitchen while restoring optimal performance.",
-        image: "/images/residential-hood.webp",
-    },
-    {
-        title: "Pressure Washing",
-        description: "High-pressure concrete, sidewalk, and floor deep cleaning to remove gum, oil stains, and built-up grime.",
-        image: "/images/pressure-washing.webp",
-    },
-    {
-        title: "Kitchen Deep Cleaning",
-        description: "Floor-to-ceiling sanitization of walls, ceilings, and surfaces. We scrub every inch to ensure passing health scores.",
+        title: "Restaurant Hood Cleaning",
+        description: "Comprehensive hood cleaning services for restaurants, ensuring fire safety, code compliance, and an immaculate kitchen environment.",
         image: "/images/deep-cleaning.webp",
-    },
-    {
-        title: "Equipment Cleaning",
-        description: "Restore your ovens, stoves, and fryers. We remove carbon buildup and baked-on grease to extend equipment life.",
-        image: "/images/equipment-cleaning.webp",
     },
 ];
 
