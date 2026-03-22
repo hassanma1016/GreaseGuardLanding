@@ -58,7 +58,7 @@ const CTA = () => {
                     </a>
 
                     {/* Review Stars */}
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-2">
                         <div className="flex text-[#FFD700] gap-0.5">
                             {[...Array(5)].map((_, i) => (
                                 <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 24 24">
@@ -66,7 +66,7 @@ const CTA = () => {
                                 </svg>
                             ))}
                         </div>
-                        <span className="text-slate-300 text-sm font-medium">
+                        <span className="text-slate-300 text-sm font-medium text-center">
                             <span className="font-bold text-white">120+ Five-Star Reviews</span> across all platforms!
                         </span>
                     </div>

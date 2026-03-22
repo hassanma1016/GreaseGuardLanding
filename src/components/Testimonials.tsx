@@ -44,7 +44,7 @@ const Testimonials = () => {
                         We Promise, You&apos;ll Love Us Too!
                     </h2>
 
-                    <div className="flex justify-center items-center gap-2">
+                    <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
                         <div className="flex text-[#FFD700]">
                             {[...Array(5)].map((_, i) => (
                                 <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ const Testimonials = () => {
                                 </svg>
                             ))}
                         </div>
-                        <span className="text-slate-600 font-medium">120+ Five-Star Reviews across all platforms!</span>
+                        <span className="text-slate-600 font-medium text-center">120+ Five-Star Reviews across all platforms!</span>
                     </div>
                 </div>
 
