@@ -26,8 +26,8 @@ const Services = () => {
                     </h2>
                 </div>
 
-                {/* Compact Vertical List for Mobile / Grid for Desktop */}
-                <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8">
+                {/* Centered Grid for Two Items (Desktop/Tablet) */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl mx-auto">
                     {services.map((service, index) => (
                         <div
                             key={index}
